@@ -1,0 +1,32 @@
+{
+  "name": "object-grep-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expansion/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulitcos/object-grep-chrome-extension.git"
+  },
+  "author": "ulitcos@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulitcos/object-grep-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/ulitcos/object-grep-chrome-extension#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "object-grep": "^1.0.1"
+  }
+}

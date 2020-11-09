@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Object.grep",
+  "version": "1.0.0",
+  "web_accessible_resources": [
+    "lib.js"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
