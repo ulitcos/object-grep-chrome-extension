@@ -3,7 +3,7 @@ A Chrome extension that adds the grep method to the object prototype. Based on [
 
 ## install
 Сlone to your machine:
-```
+```bash
 git clone https://github.com/ulitcos/object-grep-chrome-extension.git
 ```
 
@@ -14,7 +14,7 @@ Install extension into chrome ([source](https://developer.chrome.com/extensions/
 
 ## usage
 The grep method will be embedded in `object.prototype`, so you can call it on any object
-```
+```javascript
 const obj = { a: { b : { c: 'd' } } }
 
 obj.grep('b') // => {keys: ['a.b']}
