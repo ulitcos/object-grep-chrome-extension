@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/ulitcos/object-grep-chrome-extension#readme",
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   },
   "dependencies": {
-    "object-grep": "^1.0.1"
+    "object-grep": "^2.0.1"
   }
 }
